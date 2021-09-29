@@ -17,7 +17,7 @@ $ python backup.py
 ```bash
 $ python restore.py -d 2021-9-29
 ```
-#### Recovery database from backups by created date and prefix database (ex: shard_1 .. shard_N)
+#### Recovery database from backups by created date and prefix for database (ex: shard_1 .. shard_N)
 ```bash 
 $ python restore.py -d 2021-9-29 -pr <your db prefix>
 ```
